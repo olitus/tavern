@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B29A69725F8F6FE00593E5D /* Formulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29A69625F8F6FE00593E5D /* Formulae.swift */; };
+		5B29A69C25F8F79B00593E5D /* FormulaeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29A69B25F8F79B00593E5D /* FormulaeRow.swift */; };
+		5B70C66B25F8F2D6000EDCEA /* TavernApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C66A25F8F2D6000EDCEA /* TavernApp.swift */; };
+		5B70C66D25F8F2D6000EDCEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C66C25F8F2D6000EDCEA /* ContentView.swift */; };
+		5B70C66F25F8F2D7000EDCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70C66E25F8F2D7000EDCEA /* Assets.xcassets */; };
+		5B70C67225F8F2D7000EDCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70C67125F8F2D7000EDCEA /* Preview Assets.xcassets */; };
+		5B70C67E25F8F2D7000EDCEA /* TavernTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C67D25F8F2D7000EDCEA /* TavernTests.swift */; };
+		5B70C68925F8F2D7000EDCEA /* TavernUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C68825F8F2D7000EDCEA /* TavernUITests.swift */; };
+		5B70C69B25F8F436000EDCEA /* FormulaeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C69A25F8F436000EDCEA /* FormulaeView.swift */; };
+		5BA235E825FC800800041F71 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA235E725FC800800041F71 /* TestView.swift */; };
+		5BA235F625FC81AE00041F71 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA235F525FC81AE00041F71 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B70C67A25F8F2D7000EDCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B70C65F25F8F2D6000EDCEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B70C66625F8F2D6000EDCEA;
+			remoteInfo = Tavern;
+		};
+		5B70C68525F8F2D7000EDCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B70C65F25F8F2D6000EDCEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B70C66625F8F2D6000EDCEA;
+			remoteInfo = Tavern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B29A69625F8F6FE00593E5D /* Formulae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulae.swift; sourceTree = "<group>"; };
+		5B29A69B25F8F79B00593E5D /* FormulaeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaeRow.swift; sourceTree = "<group>"; };
+		5B70C66725F8F2D6000EDCEA /* Tavern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tavern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B70C66A25F8F2D6000EDCEA /* TavernApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernApp.swift; sourceTree = "<group>"; };
+		5B70C66C25F8F2D6000EDCEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B70C66E25F8F2D7000EDCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B70C67125F8F2D7000EDCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B70C67325F8F2D7000EDCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B70C67425F8F2D7000EDCEA /* Tavern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tavern.entitlements; sourceTree = "<group>"; };
+		5B70C67925F8F2D7000EDCEA /* TavernTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TavernTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B70C67D25F8F2D7000EDCEA /* TavernTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernTests.swift; sourceTree = "<group>"; };
+		5B70C67F25F8F2D7000EDCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B70C68425F8F2D7000EDCEA /* TavernUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TavernUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B70C68825F8F2D7000EDCEA /* TavernUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernUITests.swift; sourceTree = "<group>"; };
+		5B70C68A25F8F2D7000EDCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B70C69A25F8F436000EDCEA /* FormulaeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaeView.swift; sourceTree = "<group>"; };
+		5BA235E725FC800800041F71 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		5BA235F525FC81AE00041F71 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B70C66425F8F2D6000EDCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70C67625F8F2D7000EDCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70C68125F8F2D7000EDCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B29A69525F8F6EC00593E5D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5B29A69B25F8F79B00593E5D /* FormulaeRow.swift */,
+				5B70C69A25F8F436000EDCEA /* FormulaeView.swift */,
+				5B29A69625F8F6FE00593E5D /* Formulae.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5B70C65E25F8F2D6000EDCEA = {
+			isa = PBXGroup;
+			children = (
+				5B70C66925F8F2D6000EDCEA /* Tavern */,
+				5B70C67C25F8F2D7000EDCEA /* TavernTests */,
+				5B70C68725F8F2D7000EDCEA /* TavernUITests */,
+				5B70C66825F8F2D6000EDCEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B70C66825F8F2D6000EDCEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B70C66725F8F2D6000EDCEA /* Tavern.app */,
+				5B70C67925F8F2D7000EDCEA /* TavernTests.xctest */,
+				5B70C68425F8F2D7000EDCEA /* TavernUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B70C66925F8F2D6000EDCEA /* Tavern */ = {
+			isa = PBXGroup;
+			children = (
+				5BA235E725FC800800041F71 /* TestView.swift */,
+				5BA235F525FC81AE00041F71 /* MainView.swift */,
+				5B70C66A25F8F2D6000EDCEA /* TavernApp.swift */,
+				5B29A69525F8F6EC00593E5D /* Data */,
+				5B70C66C25F8F2D6000EDCEA /* ContentView.swift */,
+				5B70C66E25F8F2D7000EDCEA /* Assets.xcassets */,
+				5B70C67325F8F2D7000EDCEA /* Info.plist */,
+				5B70C67425F8F2D7000EDCEA /* Tavern.entitlements */,
+				5B70C67025F8F2D7000EDCEA /* Preview Content */,
+			);
+			path = Tavern;
+			sourceTree = "<group>";
+		};
+		5B70C67025F8F2D7000EDCEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B70C67125F8F2D7000EDCEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B70C67C25F8F2D7000EDCEA /* TavernTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B70C67D25F8F2D7000EDCEA /* TavernTests.swift */,
+				5B70C67F25F8F2D7000EDCEA /* Info.plist */,
+			);
+			path = TavernTests;
+			sourceTree = "<group>";
+		};
+		5B70C68725F8F2D7000EDCEA /* TavernUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B70C68825F8F2D7000EDCEA /* TavernUITests.swift */,
+				5B70C68A25F8F2D7000EDCEA /* Info.plist */,
+			);
+			path = TavernUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B70C66625F8F2D6000EDCEA /* Tavern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B70C68D25F8F2D7000EDCEA /* Build configuration list for PBXNativeTarget "Tavern" */;
+			buildPhases = (
+				5B70C66325F8F2D6000EDCEA /* Sources */,
+				5B70C66425F8F2D6000EDCEA /* Frameworks */,
+				5B70C66525F8F2D6000EDCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tavern;
+			productName = Tavern;
+			productReference = 5B70C66725F8F2D6000EDCEA /* Tavern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B70C67825F8F2D7000EDCEA /* TavernTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B70C69025F8F2D7000EDCEA /* Build configuration list for PBXNativeTarget "TavernTests" */;
+			buildPhases = (
+				5B70C67525F8F2D7000EDCEA /* Sources */,
+				5B70C67625F8F2D7000EDCEA /* Frameworks */,
+				5B70C67725F8F2D7000EDCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B70C67B25F8F2D7000EDCEA /* PBXTargetDependency */,
+			);
+			name = TavernTests;
+			productName = TavernTests;
+			productReference = 5B70C67925F8F2D7000EDCEA /* TavernTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B70C68325F8F2D7000EDCEA /* TavernUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B70C69325F8F2D7000EDCEA /* Build configuration list for PBXNativeTarget "TavernUITests" */;
+			buildPhases = (
+				5B70C68025F8F2D7000EDCEA /* Sources */,
+				5B70C68125F8F2D7000EDCEA /* Frameworks */,
+				5B70C68225F8F2D7000EDCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B70C68625F8F2D7000EDCEA /* PBXTargetDependency */,
+			);
+			name = TavernUITests;
+			productName = TavernUITests;
+			productReference = 5B70C68425F8F2D7000EDCEA /* TavernUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B70C65F25F8F2D6000EDCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5B70C66625F8F2D6000EDCEA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5B70C67825F8F2D7000EDCEA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5B70C66625F8F2D6000EDCEA;
+					};
+					5B70C68325F8F2D7000EDCEA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5B70C66625F8F2D6000EDCEA;
+					};
+				};
+			};
+			buildConfigurationList = 5B70C66225F8F2D6000EDCEA /* Build configuration list for PBXProject "Tavern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B70C65E25F8F2D6000EDCEA;
+			productRefGroup = 5B70C66825F8F2D6000EDCEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B70C66625F8F2D6000EDCEA /* Tavern */,
+				5B70C67825F8F2D7000EDCEA /* TavernTests */,
+				5B70C68325F8F2D7000EDCEA /* TavernUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B70C66525F8F2D6000EDCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B70C67225F8F2D7000EDCEA /* Preview Assets.xcassets in Resources */,
+				5B70C66F25F8F2D7000EDCEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70C67725F8F2D7000EDCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70C68225F8F2D7000EDCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B70C66325F8F2D6000EDCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA235E825FC800800041F71 /* TestView.swift in Sources */,
+				5BA235F625FC81AE00041F71 /* MainView.swift in Sources */,
+				5B29A69725F8F6FE00593E5D /* Formulae.swift in Sources */,
+				5B70C66D25F8F2D6000EDCEA /* ContentView.swift in Sources */,
+				5B70C69B25F8F436000EDCEA /* FormulaeView.swift in Sources */,
+				5B29A69C25F8F79B00593E5D /* FormulaeRow.swift in Sources */,
+				5B70C66B25F8F2D6000EDCEA /* TavernApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70C67525F8F2D7000EDCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B70C67E25F8F2D7000EDCEA /* TavernTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B70C68025F8F2D7000EDCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B70C68925F8F2D7000EDCEA /* TavernUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B70C67B25F8F2D7000EDCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B70C66625F8F2D6000EDCEA /* Tavern */;
+			targetProxy = 5B70C67A25F8F2D7000EDCEA /* PBXContainerItemProxy */;
+		};
+		5B70C68625F8F2D7000EDCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B70C66625F8F2D6000EDCEA /* Tavern */;
+			targetProxy = 5B70C68525F8F2D7000EDCEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B70C68B25F8F2D7000EDCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B70C68C25F8F2D7000EDCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5B70C68E25F8F2D7000EDCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tavern/Tavern.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Tavern/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tavern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleks.litus.Tavern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B70C68F25F8F2D7000EDCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tavern/Tavern.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Tavern/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tavern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleks.litus.Tavern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5B70C69125F8F2D7000EDCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TavernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleks.litus.TavernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tavern.app/Contents/MacOS/Tavern";
+			};
+			name = Debug;
+		};
+		5B70C69225F8F2D7000EDCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TavernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleks.litus.TavernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tavern.app/Contents/MacOS/Tavern";
+			};
+			name = Release;
+		};
+		5B70C69425F8F2D7000EDCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TavernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oleks.litus.TavernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Tavern;
+			};
+			name = Debug;
+		};
+		5B70C69525F8F2D7000EDCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TavernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oleks.litus.TavernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Tavern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B70C66225F8F2D6000EDCEA /* Build configuration list for PBXProject "Tavern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70C68B25F8F2D7000EDCEA /* Debug */,
+				5B70C68C25F8F2D7000EDCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B70C68D25F8F2D7000EDCEA /* Build configuration list for PBXNativeTarget "Tavern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70C68E25F8F2D7000EDCEA /* Debug */,
+				5B70C68F25F8F2D7000EDCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B70C69025F8F2D7000EDCEA /* Build configuration list for PBXNativeTarget "TavernTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70C69125F8F2D7000EDCEA /* Debug */,
+				5B70C69225F8F2D7000EDCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B70C69325F8F2D7000EDCEA /* Build configuration list for PBXNativeTarget "TavernUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70C69425F8F2D7000EDCEA /* Debug */,
+				5B70C69525F8F2D7000EDCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B70C65F25F8F2D6000EDCEA /* Project object */;
+}
