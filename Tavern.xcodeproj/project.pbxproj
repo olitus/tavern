@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B29A69725F8F6FE00593E5D /* Formulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29A69625F8F6FE00593E5D /* Formulae.swift */; };
-		5B29A69C25F8F79B00593E5D /* FormulaeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B29A69B25F8F79B00593E5D /* FormulaeRow.swift */; };
 		5B70C66B25F8F2D6000EDCEA /* TavernApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C66A25F8F2D6000EDCEA /* TavernApp.swift */; };
-		5B70C66D25F8F2D6000EDCEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C66C25F8F2D6000EDCEA /* ContentView.swift */; };
 		5B70C66F25F8F2D7000EDCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70C66E25F8F2D7000EDCEA /* Assets.xcassets */; };
 		5B70C67225F8F2D7000EDCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70C67125F8F2D7000EDCEA /* Preview Assets.xcassets */; };
 		5B70C67E25F8F2D7000EDCEA /* TavernTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C67D25F8F2D7000EDCEA /* TavernTests.swift */; };
 		5B70C68925F8F2D7000EDCEA /* TavernUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C68825F8F2D7000EDCEA /* TavernUITests.swift */; };
-		5B70C69B25F8F436000EDCEA /* FormulaeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70C69A25F8F436000EDCEA /* FormulaeView.swift */; };
-		5BA235E825FC800800041F71 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA235E725FC800800041F71 /* TestView.swift */; };
 		5BA235F625FC81AE00041F71 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA235F525FC81AE00041F71 /* MainView.swift */; };
+		5BA2360625FCAF9600041F71 /* TapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2360525FCAF9600041F71 /* TapsView.swift */; };
+		5BA2360E25FCAFF700041F71 /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2360D25FCAFF700041F71 /* Terminal.swift */; };
+		5BA2361325FCB04300041F71 /* Brew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2361225FCB04300041F71 /* Brew.swift */; };
+		5BA2362425FCB4A700041F71 /* InstalledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2362325FCB4A700041F71 /* InstalledView.swift */; };
+		5BA2362C25FCB75900041F71 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2362B25FCB75900041F71 /* AppsView.swift */; };
+		5BA2363425FCB77E00041F71 /* CommandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2363325FCB77E00041F71 /* CommandsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B29A69625F8F6FE00593E5D /* Formulae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulae.swift; sourceTree = "<group>"; };
-		5B29A69B25F8F79B00593E5D /* FormulaeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaeRow.swift; sourceTree = "<group>"; };
 		5B70C66725F8F2D6000EDCEA /* Tavern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tavern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B70C66A25F8F2D6000EDCEA /* TavernApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernApp.swift; sourceTree = "<group>"; };
-		5B70C66C25F8F2D6000EDCEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B70C66E25F8F2D7000EDCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B70C67125F8F2D7000EDCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B70C67325F8F2D7000EDCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,9 +51,13 @@
 		5B70C68425F8F2D7000EDCEA /* TavernUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TavernUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B70C68825F8F2D7000EDCEA /* TavernUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TavernUITests.swift; sourceTree = "<group>"; };
 		5B70C68A25F8F2D7000EDCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B70C69A25F8F436000EDCEA /* FormulaeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaeView.swift; sourceTree = "<group>"; };
-		5BA235E725FC800800041F71 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		5BA235F525FC81AE00041F71 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5BA2360525FCAF9600041F71 /* TapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapsView.swift; sourceTree = "<group>"; };
+		5BA2360D25FCAFF700041F71 /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
+		5BA2361225FCB04300041F71 /* Brew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brew.swift; sourceTree = "<group>"; };
+		5BA2362325FCB4A700041F71 /* InstalledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledView.swift; sourceTree = "<group>"; };
+		5BA2362B25FCB75900041F71 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		5BA2363325FCB77E00041F71 /* CommandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,16 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B29A69525F8F6EC00593E5D /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				5B29A69B25F8F79B00593E5D /* FormulaeRow.swift */,
-				5B70C69A25F8F436000EDCEA /* FormulaeView.swift */,
-				5B29A69625F8F6FE00593E5D /* Formulae.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		5B70C65E25F8F2D6000EDCEA = {
 			isa = PBXGroup;
 			children = (
@@ -116,11 +108,14 @@
 		5B70C66925F8F2D6000EDCEA /* Tavern */ = {
 			isa = PBXGroup;
 			children = (
-				5BA235E725FC800800041F71 /* TestView.swift */,
-				5BA235F525FC81AE00041F71 /* MainView.swift */,
 				5B70C66A25F8F2D6000EDCEA /* TavernApp.swift */,
-				5B29A69525F8F6EC00593E5D /* Data */,
-				5B70C66C25F8F2D6000EDCEA /* ContentView.swift */,
+				5BA235F525FC81AE00041F71 /* MainView.swift */,
+				5BA2360525FCAF9600041F71 /* TapsView.swift */,
+				5BA2362325FCB4A700041F71 /* InstalledView.swift */,
+				5BA2362B25FCB75900041F71 /* AppsView.swift */,
+				5BA2363325FCB77E00041F71 /* CommandsView.swift */,
+				5BA2362825FCB6F600041F71 /* Brew */,
+				5BA2362A25FCB72400041F71 /* Terminal */,
 				5B70C66E25F8F2D7000EDCEA /* Assets.xcassets */,
 				5B70C67325F8F2D7000EDCEA /* Info.plist */,
 				5B70C67425F8F2D7000EDCEA /* Tavern.entitlements */,
@@ -153,6 +148,22 @@
 				5B70C68A25F8F2D7000EDCEA /* Info.plist */,
 			);
 			path = TavernUITests;
+			sourceTree = "<group>";
+		};
+		5BA2362825FCB6F600041F71 /* Brew */ = {
+			isa = PBXGroup;
+			children = (
+				5BA2361225FCB04300041F71 /* Brew.swift */,
+			);
+			path = Brew;
+			sourceTree = "<group>";
+		};
+		5BA2362A25FCB72400041F71 /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				5BA2360D25FCAFF700041F71 /* Terminal.swift */,
+			);
+			path = Terminal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,12 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA235E825FC800800041F71 /* TestView.swift in Sources */,
 				5BA235F625FC81AE00041F71 /* MainView.swift in Sources */,
-				5B29A69725F8F6FE00593E5D /* Formulae.swift in Sources */,
-				5B70C66D25F8F2D6000EDCEA /* ContentView.swift in Sources */,
-				5B70C69B25F8F436000EDCEA /* FormulaeView.swift in Sources */,
-				5B29A69C25F8F79B00593E5D /* FormulaeRow.swift in Sources */,
+				5BA2361325FCB04300041F71 /* Brew.swift in Sources */,
+				5BA2363425FCB77E00041F71 /* CommandsView.swift in Sources */,
+				5BA2360625FCAF9600041F71 /* TapsView.swift in Sources */,
+				5BA2362C25FCB75900041F71 /* AppsView.swift in Sources */,
+				5BA2362425FCB4A700041F71 /* InstalledView.swift in Sources */,
+				5BA2360E25FCAFF700041F71 /* Terminal.swift in Sources */,
 				5B70C66B25F8F2D6000EDCEA /* TavernApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

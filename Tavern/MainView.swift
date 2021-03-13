@@ -19,24 +19,47 @@ struct MainView_Previews: PreviewProvider {
     }
 }
 
-
-// Left menu of the app
 struct MenuView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: TapsView()) {
                     Label(
-                        "Casks",
+                        "Taps",
+                        systemImage: "bag" //antenna.radiowaves.left.and.right"
+                    )
+                }
+                .font(.title3)
+                .padding(.vertical, 5)
+                
+                NavigationLink(destination: AppsView()) {
+                    Label(
+                        "Apps",
                         systemImage: "app.badge"
                     )
                 }
-                NavigationLink(destination: ContentView()) {
+                .font(.title3)
+                .padding(.vertical, 5)
+                
+                NavigationLink(destination: CommandsView()) {
                     Label(
-                        "Formulae",
-                        systemImage: "cloud.sun"
+                        "Commands",
+                        systemImage: "command"
                     )
                 }
+                .font(.title3)
+                .padding(.vertical, 5)
+                
+                Spacer()
+                
+                NavigationLink(destination: InstalledView()) {
+                    Label(
+                        "Installed",
+                        systemImage: "square.and.arrow.down"
+                    )
+                }
+                .font(.title3)
+                .padding(.vertical, 5)
             }
             .listStyle(SidebarListStyle())
         }
